@@ -1,0 +1,24 @@
+.type {
+  font-size: 1rem;
+  font-family: 'Poppins-Italic';
+  font-weight: 100px;
+  color: var(--primary-color);
+}
+
+.type__stile {
+  font-size: 1rem;
+  font-weight: 900px;
+  color: var(--primary-color);
+  font-family: ravie;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.marca {
+  height: 7rem;
+  width: 10rem;
+}
+

@@ -1,0 +1,43 @@
+
+.formacion__tarjetas a:before {
+	content: '';
+	display: flex;
+	width: 50px;
+	height: 50px;
+	margin: 10px auto;
+}
+
+
+.formacion__tarjetas1:nth-child(odd) a:before {
+    background: url(/imagenes/alura.png) no-repeat;
+    background-size: 9rem;
+    background-position: top;
+    width: 10rem;
+    height: 7rem;
+    border-radius: 1rem;  
+	    
+    	
+}
+
+
+.formacion__tarjetas2:nth-child(even) a:before {
+    background: url(/imagenes/areandina.jpg) no-repeat;
+    background-size: 9rem;
+    background-position: top;
+    width: 10rem;
+    height: 7rem;
+    border-radius: 1rem;  
+	  
+}
+
+.formacion__tarjetas3:nth-child(odd) a:before {
+	background: url(/imagenes/sena.png) no-repeat;
+    background-size: 9rem;
+    background-position: top;
+    width: 10rem;
+    height: 7rem;
+    border-radius: 1rem;     
+   
+}
+
+

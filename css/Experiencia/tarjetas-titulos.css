@@ -1,0 +1,18 @@
+.tarjeta__titulo {
+    font-size: 1.3rem;
+    font-weight: 300px;
+    color: #f2f7f1;
+    font-family: ravie;    
+    padding: 2px;
+    text-align: center;
+    margin: 1rem 3rem;
+}
+
+.trajeta__title{
+    text-align: center;
+    font-size: 1.1rem;
+    padding: 0;
+    margin-bottom: 0;
+    margin-top: 0;
+    font-family: ravie; 
+}

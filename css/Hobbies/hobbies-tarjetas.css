@@ -1,0 +1,53 @@
+
+.hobbies__tarjetas a:before {
+	content: '';
+	display: flex;
+	width: 50px;
+	height: 50px;
+	margin: 10px auto;
+}
+
+
+.hobbies__tarjetas1:nth-child(odd) a:before {
+	background: url(/imagenes/ciclismo.jpg) no-repeat;
+    background-size: 6rem;
+    background-position: top;
+    width: 12rem;
+    height: 6rem;
+    border-radius: 0.30rem;    
+    	
+}
+
+.hobbies__tarjetas2:nth-child(even) a:before {
+	background: url(/imagenes/peliculas.jpg) no-repeat;
+    background-size: 10rem;
+    background-position: top;
+    width: 10rem;
+    height: 6rem;
+    border-radius: 0.30rem;  
+}
+
+.hobbies__tarjetas3:nth-child(odd) a:before {
+	background: url(/imagenes/musica.jpg) no-repeat;
+    background-size: 5rem;
+    background-position: top;
+    width: 12rem;
+    height: 6rem;
+    border-radius: 0.30rem; 
+}
+.hobbies__tarjetas4:nth-child(even) a:before {
+	background: url(/imagenes/Filmora.png) no-repeat;
+    background-size: 6rem;
+    background-position: center;
+    width: 8rem;
+    height: 6rem;
+    border-radius: 1rem;  
+}
+.hobbies__tarjetas5:nth-child(odd) a:before {
+	background: url(/imagenes/cocinar.png) no-repeat;
+    background-size: 6rem;
+    background-position: center;
+    width: 8rem;
+    height: 6rem;
+    border-radius: 4rem;  
+}

@@ -1,0 +1,50 @@
+
+.skills__tarjetas a:before {
+	content: '';
+	display: flex;
+	width: 50px;
+	height: 50px;
+	margin: 10px auto;
+}
+
+
+.skills__tarjetas1:nth-child(odd) a:before {
+	background: url(/imagenes/HTML.png) no-repeat;
+    background-size: 90%;
+    	
+}
+
+.skills__tarjetas2:nth-child(even) a:before {
+	background: url(/imagenes/CSS.png) no-repeat;
+    background-size: 90%;
+}
+.skills__tarjetas3:nth-child(odd) a:before {
+	background: url(/imagenes/JS.png) no-repeat;
+    background-size: 90%;
+    border-radius: 10%;
+}
+.skills__tarjetas4:nth-child(even) a:before {
+	background: url(/imagenes/python.png) no-repeat;
+    background-size: 90%;
+}
+.skills__tarjetas5:nth-child(odd) a:before {
+	background: url(/imagenes/FlexBox.svg) no-repeat;
+    background-size: 90%;
+}
+.skills__tarjetas6:nth-child(even) a:before {
+	background: url(/imagenes/nodejs.png) no-repeat;
+    background-size: 150%;
+    background-position: center;
+    
+}
+.skills__tarjetas7:nth-child(odd) a:before {
+	background: url(/imagenes/react.jpg) no-repeat;
+    background-size: 150%;
+    background-position: center;
+
+}
+.skills__tarjetas8:nth-child(even) a:before {
+	background: url(/imagenes/Filmora.png) no-repeat;
+    background-size: 90%;
+    border-radius: 10px;
+}

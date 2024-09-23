@@ -1,0 +1,74 @@
+.contact{
+    color: var(--text-color-inverse);     
+    padding: 1rem;
+    margin-bottom: 120px;
+    
+            
+}
+
+.social_menu ul{
+    position: absolute;
+    left: 50%;
+    padding: 0;
+    margin: 50px 0 50px;
+    transform: translate(-50%, -50%);
+    display: flex;
+
+}
+
+.social_menu img {
+    width: 40px;
+    margin: 10px;
+    border-radius: 100%;
+       
+}
+
+.social_menu ul li{
+    list-style: none;
+    margin: 0 15px;    
+}
+
+.social_menu ul li .fab{
+    font-size: 30px;
+    line-height: 60px;
+    transition: .3s;
+    color: #000; 
+       
+}
+
+.social_menu ul li .fab:hover{
+    color: #fff;    
+}
+
+.social_menu ul li a{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #fff;
+    text-align: center;
+    transition: .6s;
+    box-shadow: 0 5px 4px rgb(0,0,0,.5);
+}
+
+.social_menu ul li a:hover{
+    transform: translate(0, -10%);
+    box-shadow: 2PX 2PX 50PX 6PX #050505;
+}
+
+.social_menu ul li:nth-child(1) a:hover{
+    background-color: rgb(0,0,0,0.829);    
+}
+
+.social_menu ul li:nth-child(2) a:hover{
+    background-color: #574f6b;    
+} 
+
+
+.social_menu ul li:nth-child(3) a:hover{
+    background-color: #0077b5;    
+}
+
+

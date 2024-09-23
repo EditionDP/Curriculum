@@ -1,0 +1,17 @@
+.perfil_descripcion {
+    margin-top: 10px;
+    color: #050503;
+    font-weight: 450;
+    font-size: 1.2rem;
+    font-family: 'Poppins-Italic';  
+
+}
+
+.cover {
+    width: 100%;
+    padding-bottom: 60px;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 100px;
+
+}
+

@@ -1,0 +1,19 @@
+.sobre__button[type="button"] {
+    padding: 10px 40px;
+    margin-top: 40px;
+    font-size: 18px;
+    font-weight: 600;
+    border: none;
+    color: #fff;
+    background: #FEBA0B;
+    border-radius: 20px;
+    box-shadow: 1px 1px 30px -5PX #20202049;
+    cursor: pointer;
+    transition: box-shadow 500ms;
+
+}
+
+.sobre__button[type="button"]:hover {
+    box-shadow: 1px 1px 30px -5PX #20202085;
+}
+

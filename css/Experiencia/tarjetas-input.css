@@ -1,0 +1,20 @@
+.tarjeta__input{
+    padding: 10px 40px;
+    margin-top: 0.1rem;
+    margin-left: 30%;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    color: #ffffff;
+    background: #58B0F6;
+    box-shadow: 1PX 1PX 30PX -5PX #58B0F6;
+    border-radius: 10PX;
+    transition: box-shadow 600ms;
+    font-family: 'Poppins-Italic';
+
+}
+
+.tarjeta__input:hover {
+    box-shadow: 1PX 1PX 30PX -5PX #449de6;
+
+}

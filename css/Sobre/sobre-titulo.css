@@ -1,0 +1,33 @@
+.sobre__titulo{
+    width:100%;
+    padding-top: 60px;
+    
+}
+
+.sobre__marca{
+    margin-top: 7rem;
+    margin-bottom: 4rem;
+    font-size: 50px;
+    font-weight: 900px;
+    color: #373737;
+    font-family: ravie;
+    text-align: center;
+}
+
+.sobre__titulos{
+    margin-top: 7rem;
+    margin-bottom: 4rem;
+    font-size: 50px;
+    font-weight: 900px;
+    color: #373737;
+    font-family: ravie;
+    text-align: center;
+}
+
+.sobre__titulo2{
+    font-size: 60px;
+    font-weight: 900;
+    color: #FEBA0B;
+    margin-top: -30px;
+    font-family: 'Poppins';
+}

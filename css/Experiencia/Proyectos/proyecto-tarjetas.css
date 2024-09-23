@@ -1,0 +1,23 @@
+.img_front{   
+    background-image: url(/Proyecto/alura.png);
+    background-repeat: no-repeat;    
+    background-size: 21.1rem 24.9rem;     
+}
+.img_front2{   
+    background-image: url(/Proyecto/barberia.jpeg);
+    background-repeat: no-repeat;    
+    background-size: cover;     
+}
+
+.img_front3{   
+    background-image: url(/Proyecto/Encriptar.jpg);
+    background-repeat: no-repeat;    
+    background-size: cover;     
+}
+
+
+
+
+
+
+

@@ -1,0 +1,25 @@
+.finalpage {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    text-align: center;   
+    
+}
+
+.rodape{
+    background: url(/Fondo/fondo.png);
+    background-size: auto;
+    padding: 40px;
+}
+
+.logofooter {
+    padding: 10px;    
+    height: 180px;
+    border: none;
+    border-radius: 2rem;
+    
+}
+
+.logofooter:hover {
+    box-shadow: 2PX 2PX 40PX -5PX #449de6;
+}

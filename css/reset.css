@@ -1,0 +1,371 @@
+:root {
+  --theme-color: white;
+  --primary-color: #124f88;
+  --secundary-color: #f7c331;
+  --text-color-inverse: white;
+  --text-color: black;
+  --navbar-shallow-color: #e5e5e5;
+  --menu-mobile-background-color: #3a4460;
+}
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;1,100&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:wght@700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;1,100&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:wght@100&display=swap');
+
+@font-face {
+    font-family: 'ravie';
+    src: url('fuentes/ravie.ttf') format('truetype');
+    font-style: normal;
+    font-weight: normal;
+    font-family: 'Poppins-Italic';
+    src: url('fuentes/Poppins-Italic.ttf') format('truetype');
+    font-style: normal;
+    font-weight: normal;
+    font-family: 'Lato-Italic';
+    src: url('fuentes/Lato-Italic.ttf') format('truetype');
+    font-style: normal;
+    font-weight: normal;
+
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+
+.all{
+  margin: 0;
+             
+}
+
+
+body {
+  font-family: "Montserrat", sans-serif, 'ravie';
+  color: var(--text-color);
+  padding-bottom: 6px;    
+  
+}
+
+body{
+  background: linear-gradient(#fefefe, #888888);
+}
+
+a {
+  text-decoration: none;
+  color: var(--text-color);
+}
+
+/* Responsive */
+
+@media (max-width:1000px) {
+    
+  .perfil_descripcion{
+      display: flex;
+      width: auto;
+      font-size: 15px;
+      padding: 2px;
+      
+  }
+  .container_vector{
+      display: none;
+  }
+     
+  .profile{
+      background:none;
+      
+  }
+      
+  .skills__tarjetas{
+      font-size: 0.8rem;
+  }
+  
+  .tarjeta__descripcion{
+      font-size: 1rem;
+      font-weight: 50px;
+      
+  }
+
+
+     
+}
+
+@media (max-width: 900px){
+ 
+  * {
+      margin: 0;
+      padding: 0;       
+              
+  } 
+
+  .perfil_descripcion{
+      display: flex;
+      width: auto;
+      font-size: 15px;
+      padding: 2px;
+      
+  }
+  .container_vector{
+      display: none;
+  }
+     
+  .profile{
+      background:none;
+      
+  }
+  .skills__all{
+      margin-top: 1rem;
+      margin-bottom: 10px;
+      margin-left: 0;
+  }
+  .hobbies__all{
+      margin-top: 1rem;
+      margin-bottom: 10px;
+      margin-left: 0;
+  }
+}
+
+@media (max-width: 700px){
+ 
+  .all {
+      margin: 0;
+      padding: 1px;       
+              
+  } 
+
+  .perfil_descripcion{
+      display: flex;
+      width: auto;
+      font-size: 15px;
+      padding: 2px;
+      
+  }
+  .container_vector{
+      display: none;
+  }
+     
+  .profile{
+      background:none;
+      
+  }
+
+  .sobre__marca{
+      font-size: 20px;
+      text-align: center;
+      margin-top: 6rem;
+      font-family: ravie;
+      
+  }
+
+       
+  .sobre__titulos{
+      font-size: 20px;
+      text-align: center;
+      margin-top: 1rem;
+      margin-bottom: 2rem;
+      font-family: ravie;
+  }
+  .sobre__titulo2{
+      font-size: 40px;
+      text-align: center;
+      font-family: 'Poppins';
+      
+  }
+  .skills__all{
+      margin-top: 1rem;
+      margin-bottom: 10px;
+      margin-left: 0;
+  }
+  .hobbies__all{
+      margin-top: 1rem;
+      margin-bottom: 10px;
+      margin-left: 0;
+  }
+
+  
+  .skills__contenido {
+  flex-direction: column;
+}
+
+.skills__tarjetas {
+  width: 100%;
+}
+
+  .hobbies__contenido{
+      flex-direction: column;        
+  }    
+  .hobbies__tarjetas {
+  width: 100%;
+}  
+  
+  .formacion__contenido{
+      flex-direction: column;
+  }
+
+  .formacion__tarjetas{
+      width: 100%;
+  }
+
+  .container_card {
+      width: 100%;
+      
+  }
+
+  .tarjeta__parrafo{
+      font-size: 80%;
+  }
+       
+
+
+  .contact__info{
+      width: 20%;
+      justify-content: center;
+  }      
+     
+}
+
+
+
+@media (max-width: 360px){
+
+  .type{
+      font-size: 0.8rem;
+      
+  }
+    
+  .type__stile{
+      font-size: 0.6rem;
+  }
+  .marca{
+      height: 5rem;
+      width: 7rem;
+  }
+  .sobre__marca{
+      font-size: 20px;
+      text-align: center;
+      margin-top: 6rem;
+      font-family: ravie;
+      
+  }
+
+       
+  .sobre__titulos{
+      font-size: 20px;
+      text-align: center;
+      margin-top: 1rem;
+      margin-bottom: 2rem;
+      font-family: ravie;
+  }
+  .sobre__titulo2{
+      font-size: 40px;
+      text-align: center;
+      font-family: 'Poppins';
+      
+  }
+
+
+  .perfil_descripcion{
+      display: flex;
+      width: auto;
+      font-size: 15px;
+      padding: 2px;
+      
+  }
+  .container_vector{
+      display: none;
+  }
+
+  .container_card {
+      display: flex;
+      width: 100%;
+      align-items: stretch;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      
+  }
+  .card {
+      width: 280px;
+      height: 400px;
+      position: relative;
+      transform-style: preserve-3d;
+      transition: all 900ms;
+  
+  } 
+  .tarjeta__parrafo{
+      margin-top: 7px;
+      margin-bottom: 0;
+      font-size: 0.8rem;
+      font-weight: 4rem;
+      text-align: center;
+      font-family: 'Poppins-Italic';
+      
+  }
+  
+  .tarjeta__descripcion{
+      margin: 0.3rem 0;
+      font-size: 0.7rem;
+      font-weight: 4rem;
+      font-family: 'Poppins-Italic';
+          
+  }     
+             
+  .tarjeta__descripcion{
+      font-size: 13px;
+      font-weight: 50px;
+      
+  }
+  
+  .experiences{
+      width: 100%;      
+
+  }
+
+  .skills__all{
+      margin-top: 1rem;
+      margin-bottom: 10px;
+      margin-left: 0;
+  }
+  .hobbies__all{
+      margin-top: 1rem;
+      margin-bottom: 10px;
+      margin-left: 0;
+  }
+  
+
+ 
+  /*Proyecto*/
+   
+  .proyecto__imagen{ 
+      width: 100%; 
+      margin-top: 0;      
+                     
+  }
+
+  .proyecto__button {
+     padding: 10px 12px;
+     font-size: 12px;
+      
+  }
+
+  .proyecto__demo {
+      padding: 10px 12px;
+      font-size: 12px;      
+  }
+  
+
+
+  .contact__info{
+      width: 20%;
+      justify-content: center;
+  }  
+
+     
+     
+}
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,50 @@
+.proyecto__botones {    
+    display: flex;   
+    gap: 5px;
+    margin-left: 1rem;
+
+}
+
+.proyecto__button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 16px;
+    background: #041122;
+    border: none;
+    border-radius: 20px;
+    color: #fff;
+    box-sizing: border-box;
+    cursor: pointer;
+    font-family: 'Poppins-Italic';
+}
+
+.proyecto__button:hover {
+    box-shadow: 2PX 2PX 30PX 8PX #040444;
+    color: #FEBA0B;
+}
+
+
+
+.proyecto__demo {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 18px;
+    margin-left: 16px;
+    border: none;
+    background: #4d81c4;
+    border: none;
+    border-radius: 20px;
+    color: #fff;
+    font-family: 'Poppins-Italic';
+    cursor: pointer;
+}
+
+.proyecto__demo:hover {
+    box-shadow: 2PX 2PX 30PX 8PX #040444;
+    color: #4e3d12;
+}
+

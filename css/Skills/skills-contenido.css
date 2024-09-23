@@ -1,0 +1,47 @@
+.skills__contenido {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.skills__tarjetas{
+	height: 100px;
+    display: flex;
+	width: 23%;
+	background: linear-gradient(#fefefe, #888888);
+	text-align: center;
+	margin: 1%;
+	transition: .3s;
+    box-shadow: 2px 2px 2px #CCC;
+	border-radius: 5px;
+    position: relative;
+}
+
+
+.skills__tarjetas:nth-child(4n) {
+	margin-right: 0;
+}
+
+.skills__tarjetas:nth-child(4n+1) {
+	margin-left: 0;
+}
+
+.skills__tarjetas a {
+	text-decoration: none;
+	color: #000;
+	font-weight: bold;
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+
+
+.skills__tarjetas:hover {
+	box-shadow: 1PX 1PX 30PX 5PX #000005;
+    cursor:default
+
+}
