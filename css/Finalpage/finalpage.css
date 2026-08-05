@@ -1,0 +1,25 @@
+.finalpage {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    text-align: center;   
+    
+}
+
+.rodape{
+    background: linear-gradient(#F7F8FA,#EEF1F4);
+    background-size: auto;
+    padding: 40px;
+}
+
+.logofooter {
+    padding: 10px;    
+    height: 180px;
+    border: none;
+    border-radius: 2rem;
+    
+}
+
+.logofooter:hover {
+    box-shadow: 2PX 2PX 40PX -5PX #8CC7F6;
+}

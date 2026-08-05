@@ -1,0 +1,12 @@
+.topheader{
+  width: 100vw;
+  height: 90px; 
+  padding: 10px 5px;  
+  display: flex;
+  position: fixed;
+  align-items: center;
+  justify-content: space-between; 
+  background: linear-gradient(#EEF1F4, #F7F8FA);
+  box-shadow: 0 4px 5px #C8CDD3;
+  z-index: 100;  
+}

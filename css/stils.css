@@ -1,0 +1,330 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@300;400;500;700&display=swap');
+
+.all {
+    margin: 0;
+
+}
+
+
+/* Responsive */
+
+@media (max-width:1000px) {
+
+    .perfil_descripcion {
+        display: flex;
+        width: auto;
+        font-size: 15px;
+        padding: 2px;
+
+    }
+
+    .container_vector {
+        display: none;
+    }
+
+    .profile {
+        background: none;
+
+    }
+
+    .skills__tarjetas {
+        font-size: 0.8rem;
+    }
+
+    .tarjeta__descripcion {
+        font-size: 1rem;
+        font-weight: 50px;
+
+    }
+
+
+
+}
+
+@media (max-width: 900px) {
+
+    * {
+        margin: 0;
+        padding: 0;
+
+    }
+
+    .perfil_descripcion {
+        display: flex;
+        width: auto;
+        font-size: 15px;
+        padding: 2px;
+
+    }
+
+    .container_vector {
+        display: none;
+    }
+
+    .profile {
+        background: none;
+
+    }
+
+    .skills__all {
+        margin-top: 1rem;
+        margin-bottom: 10px;
+        margin-left: 0;
+    }
+
+    .hobbies__all {
+        margin-top: 1rem;
+        margin-bottom: 10px;
+        margin-left: 0;
+    }
+}
+
+@media (max-width: 700px) {
+
+    .all {
+        margin: 0;
+        padding: 1px;
+
+    }
+
+    .perfil_descripcion {
+        display: flex;
+        width: auto;
+        font-size: 15px;
+        padding: 2px;
+
+    }
+
+    .container_vector {
+        display: none;
+    }
+
+    .profile {
+        background: none;
+
+    }
+
+    .sobre__marca {
+        font-size: 20px;
+        text-align: center;
+        margin-top: 6rem;
+        font-family:'Orbitron',sans-serif;
+
+    }
+
+
+    .sobre__titulos {
+        font-size: 20px;
+        text-align: center;
+        margin-top: 1rem;
+        margin-bottom: 2rem;
+        font-family:'Orbitron',sans-serif;
+    }
+
+    .sobre__titulo2 {
+        font-size: 40px;
+        text-align: center;
+        font-family:'Orbitron',sans-serif;
+
+    }
+
+    .skills__all {
+        margin-top: 1rem;
+        margin-bottom: 10px;
+        margin-left: 0;
+    }
+
+    .hobbies__all {
+        margin-top: 1rem;
+        margin-bottom: 10px;
+        margin-left: 0;
+    }
+
+
+    .skills__contenido {
+        flex-direction: column;
+    }
+
+    .skills__tarjetas {
+        width: 100%;
+    }
+
+    .hobbies__contenido {
+        flex-direction: column;
+    }
+
+    .hobbies__tarjetas {
+        width: 100%;
+    }
+
+    .formacion__contenido {
+        flex-direction: column;
+    }
+
+    .formacion__tarjetas {
+        width: 100%;
+    }
+
+    .container_card {
+        width: 100%;
+
+    }
+
+    .tarjeta__parrafo {
+        font-size: 80%;
+    }
+
+
+
+    .contact__info {
+        width: 20%;
+        justify-content: center;
+    }
+
+}
+
+
+
+@media (max-width: 360px) {
+
+    .type {
+        font-size: 0.8rem;
+
+    }
+
+    .type__stile {
+        font-size: 0.6rem;
+    }
+
+    .marca {
+        height: 5rem;
+        width: 7rem;
+    }
+
+    .sobre__marca {
+        font-size: 20px;
+        text-align: center;
+        margin-top: 6rem;
+        font-family:'Orbitron',sans-serif;
+
+    }
+
+
+    .sobre__titulos {
+        font-size: 20px;
+        text-align: center;
+        margin-top: 1rem;
+        margin-bottom: 2rem;
+        font-family:'Orbitron',sans-serif;
+    }
+
+    .sobre__titulo2 {
+        font-size: 40px;
+        text-align: center;
+        font-family:'Orbitron',sans-serif;
+
+    }
+
+
+    .perfil_descripcion {
+        display: flex;
+        width: auto;
+        font-size: 15px;
+        padding: 2px;
+
+    }
+
+    .container_vector {
+        display: none;
+    }
+
+    .container_card {
+        display: flex;
+        width: 100%;
+        align-items: stretch;
+        flex-wrap: wrap;
+        justify-content: space-around;
+
+    }
+
+    .card {
+        width: 280px;
+        height: 400px;
+        position: relative;
+        transform-style: preserve-3d;
+        transition: all 900ms;
+
+    }
+
+    .tarjeta__parrafo {
+        margin-top: 7px;
+        margin-bottom: 0;
+        font-size: 0.8rem;
+        font-weight: 4rem;
+        text-align: center;
+        font-family:'Inter',sans-serif;
+
+    }
+
+    .tarjeta__descripcion {
+        margin: 0.3rem 0;
+        font-size: 0.7rem;
+        font-weight: 4rem;
+        font-family:'Inter',sans-serif;
+
+    }
+
+    .tarjeta__descripcion {
+        font-size: 13px;
+        font-weight: 50px;
+
+    }
+
+    .experiences {
+        width: 100%;
+
+    }
+
+    .skills__all {
+        margin-top: 1rem;
+        margin-bottom: 10px;
+        margin-left: 0;
+    }
+
+    .hobbies__all {
+        margin-top: 1rem;
+        margin-bottom: 10px;
+        margin-left: 0;
+    }
+
+
+
+    /*Proyecto*/
+
+    .proyecto__imagen {
+        width: 100%;
+        margin-top: 0;
+
+    }
+
+    .proyecto__button {
+        padding: 10px 12px;
+        font-size: 12px;
+
+    }
+
+    .proyecto__demo {
+        padding: 10px 12px;
+        font-size: 12px;
+    }
+
+
+
+    .contact__info {
+        width: 20%;
+        justify-content: center;
+    }
+
+
+
+}

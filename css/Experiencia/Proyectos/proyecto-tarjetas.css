@@ -1,0 +1,28 @@
+.img_front{   
+    background-image: url(/Proyecto/alura.webp);
+    background-repeat: no-repeat;    
+    background-size: 21.1rem 24.9rem;     
+}
+.img_front2{   
+    background-image: url(/Proyecto/barberia.webp);
+    background-repeat: no-repeat;    
+    background-size: cover;     
+}
+
+.img_front3{   
+    background-image: url(/Proyecto/Encriptar.webp);
+    background-repeat: no-repeat;    
+    background-size: cover;     
+}
+
+.img_front4{   
+    background-image: url(/Proyecto/BimBamBuy.webp);
+    background-repeat: no-repeat;    
+    background-size: cover;  
+    background-size: 21.1rem 24.9rem;   
+}
+
+
+
+
+

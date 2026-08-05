@@ -1,0 +1,50 @@
+.proyecto__botones {    
+    display: flex;   
+    gap: 5px;
+    margin-left: 1rem;
+
+}
+
+.proyecto__button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 16px;
+    background: #8CC7F6;
+    border: none;
+    border-radius: 20px;
+    color: #ffffff;
+    box-sizing: border-box;
+    cursor: pointer;
+    font-family: 'Orbitron',sans-serif;
+}
+
+.proyecto__button:hover {
+    box-shadow: 2PX 2PX 30PX 8PX #5DA9E9;
+    color: #353C45;
+}
+
+
+
+.proyecto__demo {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 18px;
+    margin-left: 16px;
+    border: none;
+    background: #5E6772;
+    border: none;
+    border-radius: 20px;
+    color: #ffffff;
+    font-family: 'Orbitron',sans-serif;
+    cursor: pointer;
+}
+
+.proyecto__demo:hover {
+    box-shadow: 2PX 2PX 30PX 8PX #C8CDD3;
+    color: #5DA9E9;
+}
+
