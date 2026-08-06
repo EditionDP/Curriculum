@@ -6,7 +6,7 @@
   position: fixed;
   align-items: center;
   justify-content: space-between; 
-  background: linear-gradient(#EEF1F4, #F7F8FA);
+  background: linear-gradient(#ffffff, #EEF1F4);
   box-shadow: 0 4px 5px #C8CDD3;
   z-index: 100;  
 }
