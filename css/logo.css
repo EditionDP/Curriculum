@@ -18,7 +18,9 @@
 }
 
 .marca {
-  height: 7rem;
-  width: 10rem;
+  height: 6.8rem;
+  width: 9.9rem;
+  -webkit-mask-image: linear-gradient(to right, rgba(0,0,0,1) 86%, rgba(0,0,0,0) 100%);
+  mask-image: linear-gradient(to right, rgba(0,0,0,1) 86%, rgba(0,0,0,0) 100%);
 }
 
